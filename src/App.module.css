@@ -12,7 +12,7 @@
 }
 .back
 {
-  background: url("https:///www.enni.group/ap/bk.jpg") no-repeat center center fixed;
+  background: url("./bk.jpg") no-repeat center center fixed;
   background-size: cover;
   /*box-shadow: 0 0 15px 30px lightskyblue;*/
   opacity: 18%;
