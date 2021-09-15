@@ -1,0 +1,70 @@
+.main
+{
+  width: 100%;
+  height: 100vh;
+
+  /*filter: contrast(20%) brightness(80%) grayscale(10%) opacity(50%);*/
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.back
+{
+  background: url("https:///www.enni.group/ap/bk.jpg") no-repeat center center fixed;
+  background-size: cover;
+  /*box-shadow: 0 0 15px 30px lightskyblue;*/
+  opacity: 18%;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.titleLine
+{
+  text-shadow: gainsboro 0 0 3px;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  /*border: 1px solid darkgreen;*/
+  padding: 5px;
+  border-bottom: #e0e0f8 8px solid;
+}
+.title
+{
+  font-size: 50px;
+  width: 100%;
+}
+.subTitle
+{
+  font-size: 25px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.queryLine
+{
+  width: 90%;
+}
+.descLine
+{
+  font-size: 14px;
+  width: 90%;
+  font-weight: bold;
+  color: lightseagreen;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.icpLine
+{
+  font-size: 12px;
+}
